@@ -1,6 +1,6 @@
 # Is_lollipop_out_yet?
 This is a small script to check if the new Android version is available on google's factory images site. Follow instructions below to get started
-This script uses Ruby with the Nokogiri gem to copy the html from google to a variable and look for the sentences `5.0`, `lollipop` and `Lollipop`. If it finds one of these it will play a spoken notification and send a push message via [pushbullet](https://www.pushbullet.com/)
+This script uses Ruby with the Nokogiri gem to copy the html from google to a variable (every 10 minutes) and look for the sentences `5.0`, `lollipop` and `Lollipop`. If it finds one of these it will play a spoken notification and send a push message via [pushbullet](https://www.pushbullet.com/)
 
 # Setup instructions:
 
